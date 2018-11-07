@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SpotifyAssignmentV2.jnlp">
+  <information>
+    <title>SpotifyAssignmentV2</title>
+    <vendor>cstuser</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SpotifyAssignmentV2.jar" size="20887" download="eager" />
+    <jar href="lib\gson-2.8.0.jar" size="231952" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SpotifyAssignmentV2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="spotifyassignmentv2.SpotifyPlayer"  name="SpotifyAssignmentV2" />
+  <update check="always"/>
+</jnlp>
